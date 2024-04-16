@@ -2,7 +2,7 @@
 Lx = 1;  % Length of the domain in x-direction
 Ly = 1;  % Length of the domain in y-direction
 Nx = 50; % Number of grid points in x-direction
-Ny = 50; % Number of grid points in y-direction
+Ny = 50; % Number of grid points in y-directionn
 T = 1;   % Total time
 Nt = 100; % Number of time steps
 alpha = 0.01; % Thermal diffusivity
