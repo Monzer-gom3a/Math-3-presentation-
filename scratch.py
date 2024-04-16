@@ -8,11 +8,12 @@ Lx = 1  # Length of the domain in x-direction
 Ly = 1  # Length of the domain in y-direction
 Nx = 50  # Number of grid points in x-direction
 Ny = 50  # Number of grid points in y-direction
-T = 2  # Total time
-Nt = 200  # Number of time steps
+T = int(input("Enter the time you need : "))
+
+Nt = 100*T  # Number of time steps
 alpha = 0.01  # Thermal diffusivity
 
-# Grid spacin g
+# Grid spacing
 dx = Lx / Nx
 dy = Ly / Ny
 dt = T / Nt
